@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { useI18n } from '@/components/I18nProvider';
-import CodeSnippet from '@/components/CodeSnippet';
+import { useI18n } from '@/components_temp/I18nProvider';
+import CodeSnippet from '@/components_temp/CodeSnippet';
 
 export default function PortfolioPage() {
   const { t } = useI18n();

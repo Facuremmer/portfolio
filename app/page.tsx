@@ -3,10 +3,10 @@
 import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useI18n } from '@/components/I18nProvider';
-import Section from '@/components/Section';
-import ProjectCard from '@/components/ProjectCard';
-import KpiStat from '@/components/KpiStat';
+import { useI18n } from '@/components_temp/I18nProvider';
+import Section from '@/components_temp/Section';
+import ProjectCard from '@/components_temp/ProjectCard';
+import KpiStat from '@/components_temp/KpiStat';
 /**
  * Página principal — con anclas para About, Skills, Projects (y subcategorías) y Contact.
  * Navbar fijo + Offcanvas lateral manejan la navegación.

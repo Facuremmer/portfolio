@@ -1,10 +1,10 @@
 // app/layout.tsx
 import type { Metadata } from 'next';
 import './globals.css';
-import { UiProvider } from '@/components/UiProvider';
-import { ThemeProvider } from '@/components/ThemeProvider';
-import AppShell from '@/components/AppShell';
-import { I18nProvider } from '@/components/I18nProvider';
+import { UiProvider } from '@/components_temp/UiProvider';
+import { ThemeProvider } from '@/components_temp/ThemeProvider';
+import AppShell from '@/components_temp/AppShell';
+import { I18nProvider } from '@/components_temp/I18nProvider';
 
 
 export const metadata: Metadata = {
