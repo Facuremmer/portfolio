@@ -10,7 +10,7 @@ export default function PortfolioPage() {
   const tr = (k: string) => t(`proj_portfolio_${k}`);
 
   // Reemplazá esto con la URL real de tu repositorio
-  const GITHUB_REPO_URL = "https://github.com/TU_USUARIO/TU_REPO"; 
+  const GITHUB_REPO_URL = "https://github.com/Facuremmer/portfolio"; 
 
   return (
     <main className="container-pro space-y-10 pb-16 pt-10">
