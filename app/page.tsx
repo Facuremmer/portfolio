@@ -35,7 +35,7 @@ export default function Page() {
           <div className="flex items-start">
             <div className="relative h-28 w-28 overflow-hidden rounded-2xl ring-2 ring-[var(--accent)] md:h-32 md:w-32">
               <Image
-                src="/me.png"
+                src="/FotoCV.jpg"
                 alt="Facundo Remmer"
                 fill
                 sizes="128px"
