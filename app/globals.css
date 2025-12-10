@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fallback por preferencia del SO */
+:root { color-scheme: light dark; }
+
+/* Acento dinámico */
+:root { --accent: #0ea5e9; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-white text-neutral-900 antialiased;
+}
+.dark body {
+  @apply bg-neutral-950 text-neutral-100;
+}
+
+/* Helpers de layout/estilo */
+.container-pro { @apply mx-auto w-full max-w-6xl px-4 sm:px-6; }
+.card { @apply rounded-2xl border border-neutral-200/60 bg-white/70 backdrop-blur-sm dark:border-neutral-800/60 dark:bg-neutral-900/50; }
+.hr-subtle { @apply border-0 h-px bg-gradient-to-r from-transparent via-neutral-300/70 to-transparent dark:via-neutral-700/60; }
+.badge {
+  @apply inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-medium;
+  border-color: color-mix(in oklab, var(--accent) 60%, #0000);
+  color: color-mix(in oklab, var(--accent) 90%, currentColor);
+}
