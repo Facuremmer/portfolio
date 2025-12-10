@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { useI18n } from '@/components_temp/I18nProvider';
+import { useI18n } from '@/components/I18nProvider';
 
 export default function Hero() {
   const { t } = useI18n();
