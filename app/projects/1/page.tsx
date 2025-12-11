@@ -14,7 +14,7 @@ export default function AgroPlatformPage() {
       {/* Intro / Header */}
       <section className="card p-6 md:p-8 space-y-4">
         <div className="flex items-center gap-3">
-            <span className="badge bg-[var(--accent)] text-white border-transparent">Python</span>
+            <span className="badge">Python</span>
             <span className="badge">PostgreSQL</span>
             <span className="badge">Qt/PyQt5</span>
         </div>
@@ -57,7 +57,7 @@ export default function AgroPlatformPage() {
           </section>
       </div>
 
-      {/* Snippets Técnicos (La joya de la corona) */}
+      {/* Snippets Técnicos*/}
       <section className="space-y-8">
         <div className="mb-6">
             <h2 className="text-2xl font-bold">{tr("snippets_title")}</h2>
@@ -183,7 +183,7 @@ def get_conn(cls):
         </div>
       </section>
 
-      {/* Estructura (Folder Tree) */}
+      {/* Estructura */}
       <section className="card p-6 md:p-8 space-y-4">
         <h2 className="text-xl font-semibold">{tr("structure_title")}</h2>
         <pre className="overflow-x-auto text-xs sm:text-sm leading-relaxed p-4 bg-neutral-950 text-neutral-100 rounded-lg">

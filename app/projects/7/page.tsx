@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useI18n } from '@/components/I18nProvider';
 import CodeSnippet from '@/components/CodeSnippet';
-// import ProjectFigure from '@/components/ProjectFigure'; // Usamos aviso de confidencialidad
 
 export default function InternalDbPage() {
   const { t } = useI18n();
@@ -14,7 +13,7 @@ export default function InternalDbPage() {
       {/* Intro */}
       <section className="card p-6 md:p-8 space-y-4">
         <div className="flex items-center gap-3">
-            <span className="badge bg-[var(--accent)] text-white border-transparent">SQL Server</span>
+            <span className="badge">SQL Server</span>
             <span className="badge">T-SQL</span>
             <span className="badge">RRHH</span>
         </div>
@@ -135,7 +134,7 @@ export default function InternalDbPage() {
         </div>
       </section>
 
-      {/* Estructura (Sin imágenes) */}
+      {/* Estructura */}
       <section className="card p-6 md:p-8 space-y-4">
         <h2 className="text-xl font-semibold">{tr("structure_title")}</h2>
         <pre className="overflow-x-auto text-xs sm:text-sm leading-relaxed p-4 bg-neutral-950 text-neutral-100 rounded-lg">

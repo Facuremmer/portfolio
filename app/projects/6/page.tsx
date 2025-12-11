@@ -13,7 +13,7 @@ export default function TraceabilityDbPage() {
       {/* Intro */}
       <section className="card p-6 md:p-8 space-y-4">
         <div className="flex items-center gap-3">
-            <span className="badge bg-[var(--accent)] text-white border-transparent">SQL Server</span>
+            <span className="badge">SQL Server</span>
             <span className="badge">T-SQL</span>
             <span className="badge">Big Data</span>
         </div>
@@ -132,7 +132,7 @@ WITH (FILLFACTOR = 90);`}
         </div>
       </section>
 
-      {/* Estructura (Sin imágenes) */}
+      {/* Estructura */}
       <section className="card p-6 md:p-8 space-y-4">
         <h2 className="text-xl font-semibold">{tr("structure_title")}</h2>
         <pre className="overflow-x-auto text-xs sm:text-sm leading-relaxed p-4 bg-neutral-950 text-neutral-100 rounded-lg">

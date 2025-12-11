@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Español:
 
-## Getting Started
+# Portafolio Profesional de Facundo Remmer
 
-First, run the development server:
+Portafolio interactivo construido con **Next.js 14 (App Router)**, **TypeScript** y **Tailwind CSS**.
+Diseñado para mostrar proyectos de Backend & Data Engineering con una arquitectura limpia y de alto rendimiento.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js 14 App Router:** Aprovecha los Componentes del Servidor (Server Components) para un rendimiento óptimo.
+- **Sistema i18n Personalizado:** Motor de traducción ligero construido desde cero utilizando React Context (sin librerías externas pesadas).
+- **Modo Oscuro/Claro (Dark/Light Mode):** Persistencia del tema utilizando almacenamiento local y preferencias del sistema.
+- **Diseño Responsivo:** Enfoque "mobile-first" (primero móvil) utilizando Tailwind CSS.
+- **Arquitectura de Componentes:** Diseño atómico con componentes de interfaz de usuario reutilizables.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Stack Tecnológico
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** Next.js 14
+- **Lenguaje:** TypeScript
+- **Estilo:** Tailwind CSS
+- **Iconos:** SVG nativos
+- **Despliegue:** Vercel
 
-## Learn More
+## Instalación
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/Facuremmer/portfolio.git](https://github.com/Facuremmer/portfolio.git)
+   cd portfolio
+   ```
+2. **Instalar dependencias:**
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
+3. **Ejecutar el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
+4. **Abrir en tu navegador:**
+   La aplicación debería estar corriendo en `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ingles:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Facundo Remmer - Professional Portfolio
 
-## Deploy on Vercel
+Interactive portfolio built with **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**. 
+Designed to showcase Backend & Data Engineering projects with a clean, high-performance architecture.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 14 App Router:** Leveraging Server Components for optimal performance.
+- **Custom i18n System:** Lightweight translation engine built from scratch using React Context (no heavy external libraries).
+- **Dark/Light Mode:** Theme persistence using local storage and system preferences.
+- **Responsive Design:** Mobile-first approach using Tailwind CSS.
+- **Component Architecture:** Atomic design with reusable UI components.
+
+## Tech Stack
+
+- **Framework:** Next.js 14
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** Native SVG
+- **Deployment:** Vercel
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USER/portfolio.git](https://github.com/Facuremmer/portfolio.git)
+   cd portfolio

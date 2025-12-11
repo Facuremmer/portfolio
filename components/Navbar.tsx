@@ -15,6 +15,13 @@ export default function Navbar() {
   // Estado para controlar si el cartelito está abierto
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  // CLASE BASE para los botones del modal (ESTILO BORDER/OUTLINE)
+  const primaryButtonClass = "flex items-center justify-center w-full p-3 rounded-xl border-2 border-[var(--accent)] hover:bg-[var(--accent)]/10 dark:hover:bg-[var(--accent)]/20 transition text-[var(--accent)] font-semibold cursor-pointer";
+
+  // Clase para el botón de la Navbar (este queda como sólido, si ya estaba así)
+  const ctaNavbarClass = "rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-medium text-neutral-900 transition hover:opacity-90";
+
+
   return (
     <>
       <header className="sticky top-0 z-50 border-b border-neutral-200/60 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/70 dark:border-neutral-800/60 dark:bg-neutral-950/60">
@@ -27,7 +34,7 @@ export default function Navbar() {
             {/* BOTÓN: Ahora abre el modal en lugar de descargar directo */}
             <button
               onClick={() => setIsModalOpen(true)}
-              className="rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-medium text-neutral-900 transition hover:opacity-90"
+              className={ctaNavbarClass}
             >
               {t('cta_download_cv') ?? 'Download CV'}
             </button>
@@ -57,21 +64,21 @@ export default function Navbar() {
 
             {/* Opciones de descarga */}
             <div className="space-y-3">
-              {/* Opción Español */}
+              {/* Opción Español (Estilo Borde) */}
               <a
-                href="/cv_es.pdf"  // <--- Asegurate que este archivo exista en /public
+                href="/cv_es.pdf"
                 download="CV_Facundo_ES.pdf"
-                className="flex items-center justify-center w-full p-3 rounded-xl border-2 border-[var(--accent)]/20 hover:border-[var(--accent)] bg-[var(--accent)]/5 hover:bg-[var(--accent)]/10 transition text-[var(--accent)] font-semibold cursor-pointer"
+                className={primaryButtonClass} 
                 onClick={() => setIsModalOpen(false)}
               >
-                🇪🇸 {t('cv_option_es') ?? 'Español'}
+                🇦🇷 {t('cv_option_es') ?? 'Español'}
               </a>
 
-              {/* Opción Inglés */}
+              {/* Opción Inglés (Estilo Borde) */}
               <a
-                href="/cv_en.pdf"  // <--- Asegurate que este archivo exista en /public
+                href="/cv_en.pdf"
                 download="CV_Facundo_EN.pdf"
-                className="flex items-center justify-center w-full p-3 rounded-xl border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition text-neutral-700 dark:text-neutral-300 font-medium cursor-pointer"
+                className={primaryButtonClass} 
                 onClick={() => setIsModalOpen(false)}
               >
                 🇺🇸 {t('cv_option_en') ?? 'English'}
@@ -91,4 +98,3 @@ export default function Navbar() {
     </>
   );
 }
-

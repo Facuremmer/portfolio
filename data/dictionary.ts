@@ -81,7 +81,7 @@ export const DICS: Dictionaries = {
     skills_devops_item5:
       'Uso básico de Docker para entornos locales de desarrollo/pruebas y conectividad remota vía VPN (por ejemplo, Tailscale).',
 
-    // Skills – Real-time (Ahora: Industrial & Real-Time)
+    // Skills – Real-time
     skills_realtime_title: 'Industrial & Real-Time',
     skills_realtime_item1:
       'Manejo de eventos de BD en tiempo real (LISTEN/NOTIFY).',
@@ -94,7 +94,7 @@ export const DICS: Dictionaries = {
     skills_realtime_item5:
       'Tolerancia a fallos de red (Offline-first).',
 
-    // Skills – Data (Ahora: Analytics)
+    // Skills – Data 
     skills_industrial_title: 'Análisis de Datos',
     skills_industrial_item1:
       'Pandas / NumPy para procesamiento de datos.',
@@ -118,7 +118,6 @@ export const DICS: Dictionaries = {
     kpi_years: 'Años de experiencia',
     kpi_projects: 'Proyectos trabajados',
     kpi_highlights: 'Tecnologías clave',
-    // Hero / KPIs / contacto
     hero_headline:
       'Backend & Data Engineer | Python • SQL • System Architecture',
     
@@ -139,7 +138,7 @@ export const DICS: Dictionaries = {
     about_text:
       'Ingeniero de Software especializado en Backend, Arquitectura de Datos y automatización.',
     about_long:
-      'Soy Técnico Universitario en Programación con una trayectoria especializada en el puente entre las Operaciones (OT) y la Tecnología (IT). Mi enfoque no es solo escribir código, sino diseñar la arquitectura que hace que los datos fluyan de manera segura y eficiente desde el origen hasta la toma de decisiones.\n\nMe especializo en el diseño de bases de datos relacionales (PostgreSQL, SQL Server) y el desarrollo de backends robustos en Python, manejando concurrencia, sockets y procesamiento en tiempo real. Me destaco en entornos donde la integridad del dato es crítica, habiendo construido sistemas de trazabilidad industrial y gestión de recursos humanos desde cero.\n\nActualmente busco desafíos donde pueda aplicar mi experiencia en modelado de datos y optimización de backend para resolver problemas de escala y eficiencia, más allá de la interfaz de usuario.',
+      'Soy Técnico Universitario en Programación. Mi enfoque no es solo escribir código, sino diseñar la arquitectura que hace que los datos fluyan de manera segura y eficiente desde el origen hasta la toma de decisiones.\n\nMe especializo en el diseño de bases de datos relacionales (PostgreSQL, SQL Server) y el desarrollo de backends robustos en Python, manejando concurrencia, sockets y procesamiento en tiempo real. Me destaco en entornos donde la integridad del dato es crítica, habiendo construido sistemas de trazabilidad industrial y gestión de recursos humanos desde cero.\n\nActualmente busco desafíos donde pueda aplicar mi experiencia en modelado de datos y optimización de backend para resolver problemas de escala y eficiencia, más allá de la interfaz de usuario.',
     contact_title: 'Contacto',
     contact_pitch:
       'Interesado en proyectos con impacto medible y foco en rendimiento, datos y UX.',
@@ -151,9 +150,6 @@ export const DICS: Dictionaries = {
 
     copy_btn: 'Copiar',
     copy_toast: 'Copiado al portapapeles',
-
-
-
 
     // Proyectos — Desktop apps
     proj_1_title: 'Gestión integral de negocio para agroinsumos',
@@ -228,7 +224,6 @@ export const DICS: Dictionaries = {
     proj_view_case: 'Ver caso',
 
     //Proyecto 1
-
     proj_1_tag_project: 'Arquitectura / SaaS',
     proj_1S_title: 'Plataforma de Gestión Agroindustrial (SaaS)',
     proj_1_summary: 'Arquitectura de aplicación de escritorio distribuida con sincronización en tiempo real, sistema de permisos multi-tenant y actualizaciones OTA.',
@@ -356,7 +351,7 @@ export const DICS: Dictionaries = {
     proj_3_summary: 'Aplicación de escritorio integral para la administración de horas, licencias, inventario y reportes operativos.',
 
     proj_3_problem_title: 'El Caos Administrativo',
-    proj_3_problem_intro: 'La empresa gestionaba cientos de empleados y proyectos usando planillas de Excel dispersas, lo que generaba errores en la liquidación de horas y falta de visibilidad sobre quién estaba de licencia.',
+    proj_3_problem_intro: 'La empresa gestionaba empleados y proyectos usando planillas de Excel dispersas, lo que generaba errores en la liquidación de horas y falta de visibilidad sobre quién estaba de licencia.',
     proj_3_problem_1: 'Control Horario: Dificultad para validar reglas complejas (ej: horas al 50%, 100%, feriados) manualmente.',
     proj_3_problem_2: 'Seguimiento: Los gerentes no tenían forma de saber qué tareas estaban pendientes o quién estaba asignado a qué proyecto.',
     proj_3_problem_3: 'Seguridad: Las sesiones quedaban abiertas en PCs compartidas, exponiendo datos sensibles.',
@@ -404,7 +399,7 @@ export const DICS: Dictionaries = {
 
     proj_3_structure_title: 'Estructura Lógica',
     proj_3_structure_intro: 'Aunque la implementación física es monolítica (por requerimientos iniciales), el código se estructura lógicamente en módulos funcionales.',
-    proj_3_structure_note: 'Evolución: De script único a módulos.',
+    proj_3_structure_note: '',
 
     proj_3_confidential_title: 'Datos Sensibles Protegidos',
     proj_3_confidential_desc: 'Este sistema gestiona información crítica de empleados, liquidaciones y operaciones internas. Por políticas de privacidad y protección de datos, no se exhiben capturas de pantalla reales.',
@@ -434,6 +429,7 @@ export const DICS: Dictionaries = {
     proj_portfolio_fig_mobile_caption: 'Diseño totalmente responsivo y menú off-canvas.',
     proj_portfolio_fig_dark_alt: 'Modo Oscuro',
     proj_portfolio_fig_dark_caption: 'Paleta de colores semántica para alto contraste.',
+    back_to_projects: 'Volver a proyectos',
 
     // Proyecto 5
     proj_5_tag_project: 'Database / SQL',
@@ -664,7 +660,7 @@ export const DICS: Dictionaries = {
     section_skills_subtitle: 'Main technologies I have used.',
     skills_core_intro: 'Main technologies I have used:',
 
-    // Skills – Desktop applications (Now: Backend Core)
+    // Skills – Desktop applications
     skills_desktop_title: 'Backend & Python Core',
     skills_desktop_item1:
       'Advanced Python (Multithreading, Sockets, Services, Asyncio).',
@@ -677,7 +673,7 @@ export const DICS: Dictionaries = {
     skills_desktop_item5:
       'Testing, logging, and validation of complex business rules.',
 
-    // Skills – Backend & DB (Now: Data Engineering)
+    // Skills – Backend & DB
     skills_backend_title: 'Data Engineering & DB',
     skills_backend_item1:
       'Robust relational schema design (3NF/Star Schema).',
@@ -690,7 +686,7 @@ export const DICS: Dictionaries = {
     skills_backend_item5:
       'Referential integrity assurance and data auditing.',
 
-    // Skills – Web & UI (Now: Frontend & Web)
+    // Skills – Web & UI
     skills_web_title: 'Frontend & Web',
     skills_web_item1:
       'Next.js 14 (App Router & Server Components).',
@@ -716,7 +712,7 @@ export const DICS: Dictionaries = {
     skills_devops_item5:
       'Basic use of Docker for local development/test environments and remote connectivity via VPN (e.g. Tailscale).',
 
-    // Skills – Real-time (Now: Industrial & Real-Time)
+    // Skills – Real-time 
     skills_realtime_title: 'Industrial & Real-Time',
     skills_realtime_item1:
       'Real-time DB event handling (LISTEN/NOTIFY).',
@@ -729,7 +725,7 @@ export const DICS: Dictionaries = {
     skills_realtime_item5:
       'Network fault tolerance (Offline-first).',
 
-    // Skills – Data (Now: Analytics)
+    // Skills – Data 
     skills_industrial_title: 'Data Analytics',
     skills_industrial_item1:
       'Pandas / NumPy for data processing.',
@@ -774,7 +770,7 @@ export const DICS: Dictionaries = {
       'Software Engineer specialized in Backend, Data Architecture, and automation.',
       
     about_long:
-      'I am a University Programming Technician with a career specialized in bridging Operations (OT) and Technology (IT). My focus is not just on writing code, but on designing the architecture that ensures data flows securely and efficiently from the source to decision-making.\n\nI specialize in designing relational databases (PostgreSQL, SQL Server) and developing robust backends in Python, handling concurrency, sockets, and real-time processing. I excel in environments where data integrity is critical, having built industrial traceability and human resources management systems from scratch.\n\nI am currently seeking challenges where I can apply my experience in data modeling and backend optimization to solve scale and efficiency problems, beyond the user interface.',
+      'I am a University Programming Technician. My focus is not just on writing code, but on designing the architecture that ensures data flows securely and efficiently from the source to decision-making.\n\nI specialize in designing relational databases (PostgreSQL, SQL Server) and developing robust backends in Python, handling concurrency, sockets, and real-time processing. I excel in environments where data integrity is critical, having built industrial traceability and human resources management systems from scratch.\n\nI am currently seeking challenges where I can apply my experience in data modeling and backend optimization to solve scale and efficiency problems, beyond the user interface.',
     contact_title: 'Contact',
     contact_pitch:
       'Interested in projects with measurable impact and a focus on performance, data and UX.',
@@ -786,8 +782,6 @@ export const DICS: Dictionaries = {
 
     copy_btn: 'Copy',
     copy_toast: 'Copied to clipboard',
-
-
 
     // Projects — Desktop apps
     proj_1_title:
@@ -863,7 +857,7 @@ export const DICS: Dictionaries = {
 
     proj_view_case: 'View case',
 
-    //Proyecto 1
+    //Project 1
     proj_1_tag_project: 'Architecture / SaaS',
     proj_1S_title: 'Agro-Industrial Management Platform (SaaS)',
     proj_1_summary: 'Distributed desktop application architecture featuring real-time synchronization, multi-tenant permission system, and OTA updates.',
@@ -991,7 +985,7 @@ export const DICS: Dictionaries = {
     proj_3_summary: 'Comprehensive desktop application for managing hours, leave requests, inventory, and operational reporting.',
 
     proj_3_problem_title: 'Administrative Chaos',
-    proj_3_problem_intro: 'The company managed hundreds of employees and projects using scattered Excel spreadsheets, leading to errors in payroll and lack of visibility on leave status.',
+    proj_3_problem_intro: 'The company managed employees and projects using scattered Excel spreadsheets, leading to errors in payroll and lack of visibility on leave status.',
     proj_3_problem_1: 'Time Control: Difficulty manually validating complex rules (e.g., 50% vs 100% overtime, holidays).',
     proj_3_problem_2: 'Tracking: Managers lacked visibility on pending tasks or project assignments.',
     proj_3_problem_3: 'Security: Sessions were left open on shared PCs, exposing sensitive data.',
@@ -1039,7 +1033,7 @@ export const DICS: Dictionaries = {
 
     proj_3_structure_title: 'Logical Structure',
     proj_3_structure_intro: 'Although the physical implementation is monolithic (due to initial requirements), the code is logically structured into functional modules.',
-    proj_3_structure_note: 'Evolution: From script to modules.',
+    proj_3_structure_note: '',
 
     proj_3_confidential_title: 'Sensitive Data Protected',
     proj_3_confidential_desc: 'This system handles critical employee information, payroll, and internal operations. Due to privacy and data protection policies, real screenshots are not displayed.',
@@ -1069,6 +1063,7 @@ export const DICS: Dictionaries = {
     proj_portfolio_fig_mobile_caption: 'Fully responsive design and off-canvas menu.',
     proj_portfolio_fig_dark_alt: 'Dark Mode',
     proj_portfolio_fig_dark_caption: 'Semantic color palette for high contrast.',
+    back_to_projects: 'Back to projects',
 
     //Project 5
     proj_db1_tag: 'Database',
@@ -1217,7 +1212,7 @@ export const DICS: Dictionaries = {
 
     proj_7_back_to_projects: 'Back to projects',
 
-    //Proyecto 8
+    //Project 8
     proj_8_tag_project: 'Industrial IoT / SCADA',
     proj_8_title: 'Raw Material & Process Management System',
     proj_8_summary: 'Comprehensive solution for an ice cream plant digitizing raw material intake, tank monitoring, and pasteurization control.',

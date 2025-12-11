@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useI18n } from '@/components/I18nProvider';
 import CodeSnippet from '@/components/CodeSnippet';
-// import ProjectFigure from '@/components/ProjectFigure'; // <--- Ya no lo usamos acá
 
 export default function IndustrialOeePage() {
   const { t } = useI18n();
@@ -14,7 +13,7 @@ export default function IndustrialOeePage() {
       {/* Intro */}
       <section className="card p-6 md:p-8 space-y-4">
         <div className="flex items-center gap-3">
-            <span className="badge bg-[var(--accent)] text-white border-transparent">Python</span>
+            <span className="badge">Python</span>
             <span className="badge">Matplotlib</span>
             <span className="badge">Threading</span>
             <span className="badge">SQL Server</span>
@@ -152,7 +151,7 @@ def _render_donut(self, value, label):
         </div>
       </section>
 
-      {/* AVISO DE CONFIDENCIALIDAD (Reemplaza a las capturas) */}
+      {/* AVISO DE CONFIDENCIALIDAD*/}
       <section className="card p-8 border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900/20 text-center">
         <div className="mb-3 text-4xl">🔒</div>
         <h3 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100 mb-2">
